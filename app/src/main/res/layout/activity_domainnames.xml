@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    android:layout_height="match_parent"
+    tools:context=".domainnames">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/appd"
+
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="30dp"
+        app:cardBackgroundColor="@color/pink"
+        app:contentPaddingBottom="45dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="55dp"
+            android:layout_marginRight="5dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:text="App Development" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/webd"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:cardBackgroundColor="@color/pink"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="205dp"
+        app:contentPaddingBottom="45dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="55dp"
+            android:layout_marginRight="5dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:text="Web Development" />
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/dsa"
+        android:layout_below="@id/appd"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:cardBackgroundColor="@color/pink"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="45dp"
+        app:contentPaddingBottom="45dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="55dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_marginRight="5dp"
+            android:text="DSA" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/blck"
+        android:layout_below="@id/webd"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:cardBackgroundColor="@color/pink"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="205dp"
+        app:contentPaddingBottom="45dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="55dp"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:layout_marginRight="5dp"
+            android:text="Blockchain" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/uix"
+        android:layout_below="@id/dsa"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:cardBackgroundColor="@color/pink"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="45dp"
+        app:contentPaddingBottom="45dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="55dp"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:layout_marginRight="5dp"
+            android:text="UI-UX" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+
+
+        android:id="@+id/cloudc"
+        android:layout_below="@id/dsa"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:cardBackgroundColor="@color/pink"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="205dp"
+        app:contentPaddingBottom="45dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="55dp"
+            android:layout_marginRight="5dp"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:text="Cloud Computing" />
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/callb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/uix"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="80dp"
+        android:text="Call for assistance" />
+
+
+</RelativeLayout>
